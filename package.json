@@ -1,0 +1,17 @@
+{
+  "name": "smartbus-2.0",
+  "version": "2.0.0",
+  "description": "SmartBus 2.0 – AI-Powered Public Transport Platform for Chennai MTC",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "backend": "python -m uvicorn backend.main:app --reload --port 8000",
+    "mobile:start": "npm --prefix mobile/app run start",
+    "mobile:android": "npm --prefix mobile/app run android",
+    "mobile:ios": "npm --prefix mobile/app run ios",
+    "mobile:web": "npm --prefix mobile/app run web"
+  },
+  "author": "SmartBus Team",
+  "license": "MIT"
+}
